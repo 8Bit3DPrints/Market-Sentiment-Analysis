@@ -22,3 +22,9 @@ class GUI:
 
     def start(self):
         self.window.mainloop()
+
+# Create an instance of the GUI class
+gui = GUI()
+
+# Start the GUI
+gui.start()
